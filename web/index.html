@@ -1,0 +1,80 @@
+<html>
+
+<head>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+<script type="text/javascript" src="http://openlayers.org/api/OpenLayers.js"></script>
+<script type="text/javascript" src="script.js"></script>
+</head>
+
+
+<style>
+body
+{
+	margin:0px;
+	font-family:verdana;
+	font-size:12px;
+	background-image:url("image/Fond.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+.div-cadre
+{
+	margin-top:20px;
+	margin-left:40px;
+	margin-right:40px;
+	
+}
+
+.div-header
+{
+	height:25%;
+	width:100%
+	min-height:80px;
+	border-top:solid 1px black;
+}
+
+.div-navigate
+{
+	position:relative;
+	width:65%;
+	height:60%;
+	float:left;
+}
+
+.div-main
+{
+	position:relative;
+	width:25%;
+	height:60%;
+	float:left;
+	border-left:solid 1px black;
+}
+
+.div-footer
+{
+	height:7%;
+}
+</style>
+
+<body onload="init()">
+<div class="div-cadre">
+	<div class="div-header">
+		<IMG SRC="image/Header.jpg" width="100%" height="auto">
+	</div>
+	
+	<div class="div-navigate">
+		<br><br>
+		<div id="map" style="width: auto; height: 85%"></div>
+	</div>
+	<div class="div-main"><IMG SRC="image/Droite.png" width="auto" height="88%"><A HREF="resume.html"><IMG SRC="image/gotoresume.png" width="auto" height="12%"></A>
+<p style="text-align: left; color: white;text-decoration:underline;"><b>Go To resume</b></p>
+	</div>
+	<div style="clear:both;"></div>
+	<div class="div-footer">
+		<IMG SRC="image/logo-esipe.png" width="auto" height="90%">
+<p style="text-align: left; color: white;"><b>Rémy Lallemand IG2</b></p>
+	</div>
+</div>
+</body>

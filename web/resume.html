@@ -1,0 +1,83 @@
+<html>
+
+<head>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+<script type="text/javascript" src="http://openlayers.org/api/OpenLayers.js"></script>
+<script type="text/javascript" src="script.js"></script>
+</head>
+
+
+<style>
+body
+{
+	margin:0px;
+	font-family:verdana;
+	font-size:12px;
+	background-image:url("image/Fond.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+.div-cadre
+{
+	margin-top:20px;
+	margin-left:40px;
+	margin-right:40px;
+	border-top: solid 1px black;
+}
+
+.div-header
+{
+	height:25%;
+	width:100%
+	min-height:50px;
+}
+
+.div-navigate
+{
+	position:relative;
+	width:65%;
+	height:60%;
+	float:left;
+}
+
+.div-main
+{
+	position:relative;
+	width:25%;
+	height:60%;
+	float:left;
+	border-left:solid 1px black;
+}
+
+.div-footer
+{
+	height:7%;
+}
+</style>
+
+<body onload="init()">
+<div class="div-cadre">
+	<div class="div-header">
+		<IMG SRC="image/Header.jpg" width="100%" height="auto">
+	</div>
+	
+	<div class="div-navigate">
+		<br><br>
+		<div id="map" style="width: auto; height: 85%"></div>
+	</div>
+	<div class="div-main">
+<!-- <IMG SRC="image/Droite2.png" width="auto" height="88%"> -->
+<h2><u>RESUME ET DESCRIPTION</u></h2>
+<p style="background-color:rgba(255,255,255,0.70); color : black; border-style:solid; border-color:black;">Cette carte est la reproduction de celles des jeux "The Elders Scrolls IV & V (Oblivion et Skyrim)<br>Elle les situe par rapport à l'ensemble des jeux The Elders Scrolls en détaillant surtout le 4ème et le 5ème.<br>Grâce à cette carte, vous pouvez visualiser les emplacements de plusieurs endroits importants des deux jeux ainsi que les types de terrains (eaux,forêts,montagnes, neige).<br>Notamment par l'intermédiaire de l'icône "+" en haut à droite de la carte.<br>L'icône en bas à droite permet de connaître l'endroit où se situe l'emprise de la carte actuellement visible par rapport à son intégralité.<br><br>On peut de plus voir la carte en affichant les royaumes en arrière-plan.<br>Si on utilise la vue par défaut, c'est à dire les cartes d'Oblivion et Skyrim en arrière-plan, nous avons 3 niveaux de zoom.<br>Le premier constituant la totalité de la carte.<br>Le deuxième accentuant principalement les cartes des royaumes de Cyrodille (Oblivion) et Skyrim.<br>Le dernier permettant de visualiser la ville de la Cité Impériale en 3D.<br><br>Les fleches vertes ci-dessous permettent de passer de la légende a la déscription</p>
+<A HREF="index.html"><IMG SRC="image/gotolegende.png" width="auto" height="12%"></A>
+		<p style="text-align: left; color: rgb(0,0,0);text-decoration:underline;"><b>Go to légende</b><p>
+	</div>
+	<div style="clear:both;"></div>
+	<div class="div-footer">
+		<IMG SRC="image/logo-esipe.png" width="auto" height="90%">
+	<br><p style="text-align: left; color: white;"> <b>Rémy Lallemand IG2 </b></p>
+	</div>
+</div>
+</body>

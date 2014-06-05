@@ -1,0 +1,5 @@
+tmp/
+extra-data.tar.bz2
+web/extra-data.tar.bz2
+./map/data/carte_cyrodille_reference
+./map/data/carte_cyrodille_vierge_georef.tif
